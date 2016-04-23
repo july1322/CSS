@@ -1,0 +1,30 @@
+h1{
+
+    font-size: 250%;
+
+
+}
+
+p.ex1 {
+    font: 15px ;
+}
+
+p.ex1{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+
+
+}
+p.ex2 {
+    font: italic bold 12px/30px ;
+}
+
+p.ex2{
+
+    font-family: "Times New Roman", Georgia, Serif;
+    font-stretch: expanded;
+    font-size-adjust: 0.58;
+
+
+}
