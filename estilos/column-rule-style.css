@@ -1,0 +1,16 @@
+.newspaper {
+    /* Chrome, Safari, Opera */
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    -webkit-column-rule-style: dotted;
+
+    /* Firefox */
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;
+    -moz-column-rule-style: dotted;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    color: blue;
+}

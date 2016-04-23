@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    -webkit-animation: mymove infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation: mymove infinite;
+    animation-duration: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}

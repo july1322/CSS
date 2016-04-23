@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation-name: mymove;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}

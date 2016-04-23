@@ -1,0 +1,18 @@
+.newspaper {
+    /* Chrome, Safari, Opera */
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    -webkit-column-rule-style: outset;
+    -webkit-column-rule-width: 1px;
+
+    /* Firefox */
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;
+    -moz-column-rule-style: outset;
+    -moz-column-rule-width: 1px;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: outset;
+    column-rule-width: 1px;
+}

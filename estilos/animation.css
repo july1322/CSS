@@ -1,0 +1,22 @@
+div {
+
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    
+    from {left: 1px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    
+    from {left: 1px;}
+    to {left: 200px;}
+}

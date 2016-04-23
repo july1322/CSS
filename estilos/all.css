@@ -1,0 +1,10 @@
+p {
+  background-color: yellow;
+  font-size: small;
+  all: inherit;
+
+}
+html {
+  font-size: small;
+  color: blue;
+}
