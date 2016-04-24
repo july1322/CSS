@@ -1,0 +1,7 @@
+body {
+    counter-reset: section;
+}
+
+h1 {
+    counter-reset: subsection;
+}
