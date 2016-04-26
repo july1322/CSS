@@ -1,0 +1,9 @@
+p.normal {
+    font-variant: normal;
+    font-size: 80px;
+}
+
+p.small {
+    font-variant: small-caps;
+    font-size: 80px;
+}

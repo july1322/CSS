@@ -1,0 +1,17 @@
+p.normal {
+    font-style: normal;
+    font-size: 80px;
+    
+}
+
+p.italic {
+    font-style: italic;
+    font-size: 80px;
+
+}
+
+p.oblique {
+    font-style: oblique;
+    font-size: 80px;
+
+}

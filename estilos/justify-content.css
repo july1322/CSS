@@ -1,0 +1,14 @@
+#main {
+    width: 800px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+
+#main div {
+    width: 70px;
+    height: 70px;
+}
